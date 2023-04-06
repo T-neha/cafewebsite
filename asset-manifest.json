@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/cafewebsite/static/css/main.c64afdc2.css",
+    "main.js": "/cafewebsite/static/js/main.235c3983.js",
+    "static/js/787.091bb736.chunk.js": "/cafewebsite/static/js/787.091bb736.chunk.js",
+    "static/media/noddles.jpg": "/cafewebsite/static/media/noddles.5552b851036472864cf7.jpg",
+    "static/media/banner11.jpg": "/cafewebsite/static/media/banner11.ae8029f9d6bbbf77d6f8.jpg",
+    "static/media/2nd.jpg": "/cafewebsite/static/media/2nd.2ced4ccd1d1d0958043e.jpg",
+    "static/media/barger.jpg": "/cafewebsite/static/media/barger.39ccc5ad2d8c9ae00757.jpg",
+    "static/media/3rd.jpg": "/cafewebsite/static/media/3rd.956a5e1112167d8a8521.jpg",
+    "static/media/rolls.jpg": "/cafewebsite/static/media/rolls.9d7606418accb888b304.jpg",
+    "static/media/6th.jpg": "/cafewebsite/static/media/6th.b6acfbc318a58a82d512.jpg",
+    "static/media/sandwitch.jpg": "/cafewebsite/static/media/sandwitch.b0953e6cc81fec3d6d9f.jpg",
+    "static/media/pizzza.jpg": "/cafewebsite/static/media/pizzza.bf7c0f6cacccc5b81312.jpg",
+    "static/media/4th.jpg": "/cafewebsite/static/media/4th.32103faf459cc8e57dbb.jpg",
+    "static/media/catlet.jpg": "/cafewebsite/static/media/catlet.9067f5f90c59cbdcf4c6.jpg",
+    "static/media/momos.jpg": "/cafewebsite/static/media/momos.6c0da6fdb65a243f2a69.jpg",
+    "static/media/frenchfries.jpg": "/cafewebsite/static/media/frenchfries.b46d84fbd5eab1bc839f.jpg",
+    "index.html": "/cafewebsite/index.html",
+    "main.c64afdc2.css.map": "/cafewebsite/static/css/main.c64afdc2.css.map",
+    "main.235c3983.js.map": "/cafewebsite/static/js/main.235c3983.js.map",
+    "787.091bb736.chunk.js.map": "/cafewebsite/static/js/787.091bb736.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c64afdc2.css",
+    "static/js/main.235c3983.js"
+  ]
+}
