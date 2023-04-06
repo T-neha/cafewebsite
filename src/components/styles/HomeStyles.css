@@ -1,0 +1,111 @@
+.home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerContainer {
+  width: auto;
+  margin-left: 30px;
+  border-radius: 10px;
+    width: 90%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(193, 110, 70, 1);
+    color: rgb(255, 233, 221);
+    /* margin: 76px; */
+    margin-left: 76px;
+    opacity: 0.8;
+  
+
+}
+
+.home .headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.home .headerContainer p {
+  margin-top: 15px;
+  padding: 0;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(250, 250, 250);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.headerContainer button {
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  text-decoration: none;
+  background-color: rgb(253, 137, 5);
+  color: white;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.headerContainer button :hover {
+  background-color: rgb(247, 97, 97);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .headerContainer {
+    margin-left: 0;
+    border-radius: 10px;
+    width: 90%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(193, 110, 70, 1);
+    color: rgb(255, 233, 221);
+  }
+
+  .home .headerContainer h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    height: 30px;
+    margin: 22px 0px;
+    color: white;
+  }
+
+  .home .headerContainer p {
+    font-size: 18px;
+    color: aliceblue;
+  }
+
+  .headerContainer button {
+    background-color: rgb(253, 137, 5);
+    color: white;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+  }
+}
