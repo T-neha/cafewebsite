@@ -6,20 +6,18 @@ import Menu from "./pages/Menu";
 import Pagenotfound from "./pages/Pagenotfound";
 import Auth from "./pages/Auth";
 
-
 function App() {
+  const path = "/https://t-neha.github.io/cafewebsite/";
   return (
     <div>
-    
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/menu" element={<Menu/>}/>
-          <Route path="/signin" element={<Auth/>}/>
-          <Route path="*" element={<Pagenotfound/>}/>
-         
+          <Route path={path} element={<Home />} />
+          <Route path={path + "/about"} element={<About />} />
+          <Route path={path + "/contact"} element={<Contact />} />
+          <Route path={path + "/menu"} element={<Menu />} />
+          <Route path={path + "/signin"} element={<Auth />} />
+          <Route path={path + "*"} element={<Pagenotfound />} />
         </Routes>
       </BrowserRouter>
     </div>
