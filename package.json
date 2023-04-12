@@ -2,7 +2,7 @@
   "name": "resturant-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://T-neha.github.io/caffeine_cafewebsite",
+  //"homepage": "http://T-neha.github.io/caffeine_cafewebsite",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
